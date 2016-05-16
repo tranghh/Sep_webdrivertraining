@@ -38,5 +38,5 @@ search_txt_box=xpath=//*[@id='search']
 new_letter_txt_box=xpath=//*[@id='newsletter']
 
 # Button
-search_button=xpath=
+search_button=xpath=//*[@id='search_mini_form']//*[@type='submit']
 new_letter_button=xpath=//*[@id='newsletter-validate-detail']//*[@title='Subscribe']
