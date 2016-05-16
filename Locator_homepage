@@ -1,23 +1,42 @@
 #####################################Locator on Home page##################################
+# Home
 logo=xpath=//*[@id='header']
+
+# Tab on page
 mobile_tab=xpath=//*[@id='nav']//*[@href='http://live.guru99.com/index.php/mobile.html']
 tv_tab=xpath=//*[@id='nav']//*[@href='http://live.guru99.com/index.php/tv.html']
 
 # List link in Company
-company_about_us=xpath=//*[@id='top']//*[@href='http://live.guru99.com/index.php/about-magento-demo-store/']
-company_contact=xpath=//*[@id='top']//*[@href='http://live.guru99.com/index.php/contacts/']
-company_customer=xpath=//*[@id='top']//*[@href='http://live.guru99.com/index.php/customer-service/']
-company_privacy=xpath=//*[@id='top']//*[@href='http://live.guru99.com/index.php/privacy-policy-cookie-restriction-mode/']
+about_us_link=xpath=//*[@id='top']//*[@href='http://live.guru99.com/index.php/about-magento-demo-store/']
+contact_link=xpath=//*[@id='top']//*[@href='http://live.guru99.com/index.php/contacts/']
+customer_link=xpath=//*[@id='top']//*[@href='http://live.guru99.com/index.php/customer-service/']
+privacy_link=xpath=//*[@id='top']//*[@href='http://live.guru99.com/index.php/privacy-policy-cookie-restriction-mode/']
 
 # List link in Quick links
-links_site_map=xpath=//*[@title='Site Map']
-link_search_term=xpath=//*[@title='Search Terms']
-link_advanced_search=xpath=//*[@title='Advanced Search']
+site_map_link=xpath=//*[@title='Site Map']
+search_term_link=xpath=//*[@title='Search Terms']
+advanced_search_link=xpath=//*[@title='Advanced Search']
 
 # List link in Account at Bottom
-acount_my_act=xpath=//*[@title='My Account']
-account_order_return=xpath=//*[@title='Orders and Returns']
+my_act_link=xpath=//*[@title='My Account']
+order_return_link=xpath=//*[@title='Orders and Returns']
 
 # List link in Account at Right-Top
-act_My_account=xpath=
-act_Login=xpath=//*[@id='header-account']//*[@title='Log In']
+act_link=xpath=//*[@id='header']//*[@href='http://live.guru99.com/index.php/customer/account/']
+my_account_link=xpath=//*[@id='header-account']//*[@title='My Account']
+my_wishlist_link=xpath=//*[@id='header-account']//*[@title='My Wishlist']
+my_cart_link=xpath=//*[@id='header-account']//*[@title='My Cart']
+checkout_link=xpath=//*[@id='header-account']//*[@title='Checkout']
+register_link=xpath=//*[@id='header-account']//*[@title='Register']
+log_in_link=xpath=//*[@id='header-account']//*[@title='Log In']
+
+# Link to shopping cart
+cart_link=xpath=//*[@id='header']//*[@href='http://live.guru99.com/index.php/checkout/cart/']
+
+# Text box
+search_txt_box=xpath=//*[@id='search']
+new_letter_txt_box=xpath=//*[@id='newsletter']
+
+# Button
+search_button=xpath=
+new_letter_button=xpath=//*[@id='newsletter-validate-detail']//*[@title='Subscribe']
