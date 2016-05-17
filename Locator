@@ -1,16 +1,16 @@
 #####################################Locator on Home page##################################
 # Home
-logo=xpath=//*[@id='header']
+logo=id=header
 
 # Tab on page
-mobile_tab=xpath=//*[@id='nav']//*[@href='http://live.guru99.com/index.php/mobile.html']
-tv_tab=xpath=//*[@id='nav']//*[@href='http://live.guru99.com/index.php/tv.html']
+mobile_tab=xpath=//*[@id='nav']//a[contains(@href,'mobile')]
+tv_tab=xpath=//*[@id='nav']//a[contains(@href,'tv')]
 
 # List link in Company
-about_us_link=xpath=//*[@id='top']//*[@href='http://live.guru99.com/index.php/about-magento-demo-store/']
-contact_link=xpath=//*[@id='top']//*[@href='http://live.guru99.com/index.php/contacts/']
-customer_link=xpath=//*[@id='top']//*[@href='http://live.guru99.com/index.php/customer-service/']
-privacy_link=xpath=//*[@id='top']//*[@href='http://live.guru99.com/index.php/privacy-policy-cookie-restriction-mode/']
+about_us_link=xpath=//*[@id='top']//a[contains(@href,'about-magento-demo-store')]
+contact_link=xpath=//*[@id='top']//a[contains(@href,'contacts')]
+customer_link=xpath=//*[@id='top']//a[contains(@href,'customer-service')]
+privacy_link=xpath=//*[@id='top']//a[contains(@href,'privacy-policy-cookie-restriction-mode')]
 
 # List link in Quick links
 site_map_link=xpath=//*[@title='Site Map']
@@ -22,7 +22,7 @@ my_act_link=xpath=//*[@title='My Account']
 order_return_link=xpath=//*[@title='Orders and Returns']
 
 # List link in Account at Right-Top
-act_link=xpath=//*[@id='header']//*[@href='http://live.guru99.com/index.php/customer/account/']
+act_link=xpath=//*[@id='header']//a[contains(@href,'account')]
 my_account_link=xpath=//*[@id='header-account']//*[@title='My Account']
 my_wishlist_link=xpath=//*[@id='header-account']//*[@title='My Wishlist']
 my_cart_link=xpath=//*[@id='header-account']//*[@title='My Cart']
@@ -31,11 +31,11 @@ register_link=xpath=//*[@id='header-account']//*[@title='Register']
 log_in_link=xpath=//*[@id='header-account']//*[@title='Log In']
 
 # Link to shopping cart
-cart_link=xpath=//*[@id='header']//*[@href='http://live.guru99.com/index.php/checkout/cart/']
+cart_link=xpath=//*[@id='header']//a[contains(@href,'cart')]
 
 # Text box
-search_txt_box=xpath=//*[@id='search']
-new_letter_txt_box=xpath=//*[@id='newsletter']
+search_txt_box=id=search
+new_letter_txt_box=id=newsletter
 
 # Button
 search_button=xpath=//*[@id='search_mini_form']//*[@type='submit']
