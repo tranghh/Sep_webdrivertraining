@@ -1,0 +1,42 @@
+#####################################Locator on Home page##################################
+# Home
+logo=id=header
+
+# Tab on page
+mobile_tab=xpath=//*[@id='nav']//a[contains(@href,'mobile')]
+tv_tab=xpath=//*[@id='nav']//a[contains(@href,'tv')]
+
+# List link in Company
+about_us_link=xpath=//*[@id='top']//a[contains(@href,'about-magento-demo-store')]
+contact_link=xpath=//*[@id='top']//a[contains(@href,'contacts')]
+customer_link=xpath=//*[@id='top']//a[contains(@href,'customer-service')]
+privacy_link=xpath=//*[@id='top']//a[contains(@href,'privacy-policy-cookie-restriction-mode')]
+
+# List link in Quick links
+site_map_link=xpath=//*[@title='Site Map']
+search_term_link=xpath=//*[@title='Search Terms']
+advanced_search_link=xpath=//*[@title='Advanced Search']
+
+# List link in Account at Bottom
+my_act_link=xpath=//*[@title='My Account']
+order_return_link=xpath=//*[@title='Orders and Returns']
+
+# List link in Account at Right-Top
+act_link=xpath=//*[@id='header']//a[contains(@href,'account')]
+my_account_link=xpath=//*[@id='header-account']//*[@title='My Account']
+my_wishlist_link=xpath=//*[@id='header-account']//*[@title='My Wishlist']
+my_cart_link=xpath=//*[@id='header-account']//*[@title='My Cart']
+checkout_link=xpath=//*[@id='header-account']//*[@title='Checkout']
+register_link=xpath=//*[@id='header-account']//*[@title='Register']
+log_in_link=xpath=//*[@id='header-account']//*[@title='Log In']
+
+# Link to shopping cart
+cart_link=xpath=//*[@id='header']//a[contains(@href,'cart')]
+
+# Text box
+search_txt_box=id=search
+new_letter_txt_box=id=newsletter
+
+# Button
+search_button=xpath=//*[@id='search_mini_form']//*[@type='submit']
+new_letter_button=xpath=//*[@id='newsletter-validate-detail']//*[@title='Subscribe']
